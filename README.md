@@ -19,17 +19,17 @@ By default the grid will show 960px grid with 12 columns and 10 px gutter in red
 Grid overlay options
 ---------------------------------
 
-name | type | default | description
+name          | type          | default       | description
 ------------- |:-------------:|:-------------:|:--------------
-width | Number | ```960``` | The width of Grid overlay 960 or 768  or 1280 etc
-columns | Number | ```12``` | Number of columns of the grid
-gutter | Number | ```10``` | The space between the columns
-color | String | ```'#ff0000'``` | The color of a single grid column
-opacity | Number | ```0.2``` | The color opacity of a single grid column
+width   | Number | ```960```       | The width of Grid overlay 960 or 768  or 1280 etc
+columns | Number | ```12```        | Number of columns of the grid
+gutter  | Number | ```10```        | The space between the columns
+color   | String | ```'#ff0000'``` | The color of a single grid column
+opacity | Number | ```0.2```       | The color opacity of a single grid column
 
 
 ---------------------------------
-Example
+Examples
 ---------------------------------
 ```javascript
     Grid.show({
